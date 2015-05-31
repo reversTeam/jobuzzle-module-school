@@ -1,0 +1,20 @@
+#import (Config.path +'/Modules/Institute/Bundle/Data/Collection/InstituteDataMainCollection') = InstituteDataMainCollection;
+
+class SchoolDataMainCollection extends InstituteDataMainCollection {
+
+	_entityType = 'School';
+	_entityClass = 'school_data_main_entity';
+
+	getProtected : function () {
+		if (this._protected == undefined) {
+			var protected = _super();
+			this._protected = protected.concat(
+				Config.modules.School.collections.update.protected
+			);
+		}
+		return this._protected;
+	}
+
+}
+
+#export SchoolDataMainCollection;
