@@ -1,0 +1,19 @@
+#import (Config.path +'/Modules/Institute/Bundle/Data/Entity/InstituteDataMainEntity') = InstituteDataMainEntity;
+
+class SchoolDataMainEntity extends InstituteDataMainEntity {
+
+	_type = 'School';
+
+	intitialize : function () {
+		_super();
+	}
+
+	hydrate : function (datas) {
+		_super(datas);
+
+		return this;
+	}
+
+}
+
+#export SchoolDataMainEntity;
