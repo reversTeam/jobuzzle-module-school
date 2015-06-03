@@ -1,0 +1,15 @@
+#import (Config.path +'/Modules/Institute/Bundle/Data/Route/InstituteDataMainRoute') = InstituteDataMainRoute;
+
+class SchoolDataMainRoute extends InstituteDataMainRoute {
+
+	name = 'school';
+
+	baseName = 'School';
+	baseRoute = '{schools}';
+	baseController = 'school_data_main_controller';
+
+	paramName = 'school_url';
+
+}
+
+#export SchoolDataMainRoute;

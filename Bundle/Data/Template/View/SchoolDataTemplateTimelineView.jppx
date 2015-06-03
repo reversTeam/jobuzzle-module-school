@@ -1,0 +1,22 @@
+#import (Config.path +'/Modules/Institute/Bundle/Template/View/InstituteDataTemplateTimelineView') = InstituteDataTemplateTimelineView;
+
+class SchoolDataTemplateTimelineView extends InstituteDataTemplateTimelineView {
+
+	render : function () {
+		var entity = this.state.entity;
+		var picture = 'https://s3.amazonaws.com/roomreveal_v2/gfx/company_placeholder.png';
+
+		// if (entity.getLogo() != 'undefined')
+		// 	picture = entity.getLogo();
+
+		return (
+			<div>
+				{entity.getId() +' : '+ entity.getType() +' | Url -> '+ entity.getUrl() +' | Name : '+ entity.getName() +' | Description : '+ entity.getDescription() }
+				<img src={picture} width="160" height="190" />
+			</div>
+		);
+	}
+
+}
+
+#export SchoolDataTemplateTimelineView;

@@ -3,6 +3,7 @@
 class SchoolDataMainEntity extends InstituteDataMainEntity {
 
 	_type = 'School';
+	_templateTimeline = 'school_data_timeline_template';
 
 	intitialize : function () {
 		_super();
