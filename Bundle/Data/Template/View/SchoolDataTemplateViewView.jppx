@@ -1,0 +1,10 @@
+class SchoolDataTemplateViewView extends InstituteDataTemplateViewView {
+
+	_class = 'school';
+	_elementType = 'School';
+
+	display : function () {
+		return <div>View School</div>;
+	}
+
+}

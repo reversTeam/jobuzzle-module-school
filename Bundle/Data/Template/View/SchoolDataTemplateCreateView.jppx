@@ -1,0 +1,10 @@
+class SchoolDataTemplateCreateView extends InstituteDataTemplateCreateView {
+
+	_class = 'school';
+	_elementType = 'School';
+
+	display : function () {
+		return <div>Create School</div>;
+	}
+
+}
