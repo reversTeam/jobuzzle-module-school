@@ -1,0 +1,5 @@
+class SchoolDataMainController extends InstituteDataMainController {
+
+	_serviceName = 'school_data_main_service';
+
+}

@@ -1,0 +1,7 @@
+class SchoolDataSearchTemplate extends InstituteDataSearchTemplate {
+
+	_viewClassName = 'SchoolDataTemplateSearchView';
+	_type = 'School';
+	_route = 'school';
+
+}

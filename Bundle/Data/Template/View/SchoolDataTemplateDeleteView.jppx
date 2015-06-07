@@ -1,0 +1,10 @@
+class SchoolDataTemplateDeleteView extends InstituteDataTemplateDeleteView {
+
+	_class = 'school';
+	_elementType = 'School';
+
+	display : function () {
+		return <div>Delete School</div>;
+	}
+
+}
