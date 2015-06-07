@@ -1,2 +1,15 @@
 invokables:
 	school_data_timeline_template : Data/Template/SchoolDataTimelineTemplate
+
+	school_data_search_template	: Data/Template/SchoolDataSearchTemplate
+	school_data_view_template	: Data/Template/SchoolDataViewTemplate
+	school_data_create_template	: Data/Template/SchoolDataCreateTemplate
+	school_data_update_template	: Data/Template/SchoolDataUpdateTemplate
+	school_data_delete_template	: Data/Template/SchoolDataDeleteTemplate
+
+shared:
+	school_data_search_template	: true
+	school_data_view_template	: true
+	school_data_create_template	: true
+	school_data_update_template	: true
+	school_data_delete_template	: true

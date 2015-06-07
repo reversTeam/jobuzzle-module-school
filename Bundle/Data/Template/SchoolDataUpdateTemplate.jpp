@@ -1,0 +1,7 @@
+class SchoolDataUpdateTemplate extends InstituteDataUpdateTemplate {
+
+	_viewClassName = 'SchoolDataTemplateUpdateView';
+	_type = 'School';
+	_route = 'school';
+
+}

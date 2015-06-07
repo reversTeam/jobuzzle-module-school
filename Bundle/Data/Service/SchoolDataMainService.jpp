@@ -1,0 +1,6 @@
+class SchoolDataMainService extends InstituteDataMainService {
+
+	_type = 'school';
+	_title = 'Schools';
+
+}
