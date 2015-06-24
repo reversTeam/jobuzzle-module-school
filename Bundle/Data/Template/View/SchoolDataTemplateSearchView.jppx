@@ -3,8 +3,4 @@ class SchoolDataTemplateSearchView extends InstituteDataTemplateSearchView {
 	_class = 'school';
 	_elementType = 'School';
 
-	display : function () {
-		return <div>Search School</div>;
-	}
-
 }
