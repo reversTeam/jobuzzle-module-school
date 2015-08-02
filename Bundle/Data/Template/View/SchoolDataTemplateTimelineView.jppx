@@ -5,7 +5,7 @@ class SchoolDataTemplateTimelineView extends InstituteDataTemplateTimelineView {
 		var entity = this.state.entity;
 
 		return router.build('/school/view',{
-			school_url : 'toto'//entity.getUrl()
+			school_url : entity.getUrl()
 		});
 	}
 

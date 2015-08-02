@@ -4,7 +4,11 @@ class SchoolDataTemplateViewView extends InstituteDataTemplateViewView {
 	_elementType = 'School';
 
 	display : function () {
-		return <div>View School</div>;
+		var entity = this.state.entity;
+		if (entity)
+			return <div>{entity.getName()}</div>;
+		else
+			return <div>View School</div>;
 	}
 
 }
