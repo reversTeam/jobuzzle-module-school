@@ -1,5 +1,6 @@
 class SchoolDataViewTemplate extends InstituteDataViewTemplate {
 
+	_serviceName = 'school_data_main_service';
 	_viewClassName = 'SchoolDataTemplateViewView';
 	_type = 'School';
 	_route = 'school';

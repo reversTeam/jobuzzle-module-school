@@ -1,6 +1,11 @@
 class SchoolDataMainService extends InstituteDataMainService {
 
 	_type = 'school';
+	_entityType = 'School';
 	_title = 'Schools';
+
+	getTitleParamsView : function (entity) {
+		return _super(entity);
+	}
 
 }
