@@ -1,5 +1,3 @@
-#import (Config.path +'/Modules/Institute/Bundle/Data/Collection/InstituteDataMainCollection') = InstituteDataMainCollection;
-
 class SchoolDataMainCollection extends InstituteDataMainCollection {
 
 	_entityType = 'School';
@@ -16,5 +14,3 @@ class SchoolDataMainCollection extends InstituteDataMainCollection {
 	}
 
 }
-
-#export SchoolDataMainCollection;
