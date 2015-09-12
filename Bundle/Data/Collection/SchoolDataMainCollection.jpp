@@ -1,4 +1,14 @@
-#import (Config.path +'/Modules/Institute/Bundle/Data/Collection/InstituteDataMainCollection') = InstituteDataMainCollection;
+/**************************************************************
+*     ####         #                               #          * Jobuzzle - Copyright All rights reserved
+*     ####         #                               #          *
+*       ##  #####  ######  #     # ####### ####### #  #####   * @Author: revers
+*       ## #     # #     # #     #      #       #  # #     #  *
+*       ## #     # #     # #     #     #       #   # #     #  * @Date:   2015-08-08 11:12:49
+*       ## #     # #     # #     #    #       #    # #     #  *
+*       ## #     # #     # #     #   #       #     # ######   * @Last Modified by:   revers
+*  ####### #     # #     # #     #  #       #      # #        *
+*  ######   #####   ######  #####  ####### ####### # #######  * @Last Modified time: 2015-08-08 14:32:21
+**************************************************************/
 
 class SchoolDataMainCollection extends InstituteDataMainCollection {
 
@@ -16,5 +26,3 @@ class SchoolDataMainCollection extends InstituteDataMainCollection {
 	}
 
 }
-
-#export SchoolDataMainCollection;

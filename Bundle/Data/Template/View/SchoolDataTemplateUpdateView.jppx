@@ -1,9 +1,21 @@
+/**************************************************************
+*     ####         #                               #          * Jobuzzle - Copyright All rights reserved
+*     ####         #                               #          *
+*       ##  #####  ######  #     # ####### ####### #  #####   * @Author: revers
+*       ## #     # #     # #     #      #       #  # #     #  *
+*       ## #     # #     # #     #     #       #   # #     #  * @Date:   2015-08-08 11:12:49
+*       ## #     # #     # #     #    #       #    # #     #  *
+*       ## #     # #     # #     #   #       #     # ######   * @Last Modified by:   revers
+*  ####### #     # #     # #     #  #       #      # #        *
+*  ######   #####   ######  #####  ####### ####### # #######  * @Last Modified time: 2015-09-11 21:28:49
+**************************************************************/
+
 class SchoolDataTemplateUpdateView extends InstituteDataTemplateUpdateView {
 
 	_class = 'school';
 	_elementType = 'School';
 
-	display : function () {
+	public display : function () {
 		return <div>Update School</div>;
 	}
 
