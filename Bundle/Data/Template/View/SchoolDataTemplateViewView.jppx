@@ -7,7 +7,7 @@
 *       ## #     # #     # #     #    #       #    # #     #  *
 *       ## #     # #     # #     #   #       #     # ######   * @Last Modified by:   revers
 *  ####### #     # #     # #     #  #       #      # #        *
-*  ######   #####   ######  #####  ####### ####### # #######  * @Last Modified time: 2015-08-08 14:32:21
+*  ######   #####   ######  #####  ####### ####### # #######  * @Last Modified time: 2015-09-11 21:28:53
 **************************************************************/
 
 class SchoolDataTemplateViewView extends InstituteDataTemplateViewView {
@@ -15,7 +15,7 @@ class SchoolDataTemplateViewView extends InstituteDataTemplateViewView {
 	_class = 'school';
 	_elementType = 'School';
 
-	display : function () {
+	public display : function () {
 		var entity = this.state.entity;
 		if (entity)
 			return <div>{entity.getName()}</div>;

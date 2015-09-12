@@ -7,7 +7,7 @@
 *       ## #     # #     # #     #    #       #    # #     #  *
 *       ## #     # #     # #     #   #       #     # ######   * @Last Modified by:   revers
 *  ####### #     # #     # #     #  #       #      # #        *
-*  ######   #####   ######  #####  ####### ####### # #######  * @Last Modified time: 2015-08-08 14:32:21
+*  ######   #####   ######  #####  ####### ####### # #######  * @Last Modified time: 2015-09-11 21:28:45
 **************************************************************/
 
 class SchoolDataTemplateDeleteView extends InstituteDataTemplateDeleteView {
@@ -15,7 +15,7 @@ class SchoolDataTemplateDeleteView extends InstituteDataTemplateDeleteView {
 	_class = 'school';
 	_elementType = 'School';
 
-	display : function () {
+	public display : function () {
 		return <div>Delete School</div>;
 	}
 
