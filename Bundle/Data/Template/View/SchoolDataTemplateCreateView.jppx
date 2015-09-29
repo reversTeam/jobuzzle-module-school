@@ -7,16 +7,12 @@
 *       ## #     # #     # #     #    #       #    # #     #  *
 *       ## #     # #     # #     #   #       #     # ######   * @Last Modified by:   revers
 *  ####### #     # #     # #     #  #       #      # #        *
-*  ######   #####   ######  #####  ####### ####### # #######  * @Last Modified time: 2015-09-11 21:28:41
+*  ######   #####   ######  #####  ####### ####### # #######  * @Last Modified time: 2015-09-29 10:33:22
 **************************************************************/
 
 class SchoolDataTemplateCreateView extends InstituteDataTemplateCreateView {
 
 	_class = 'school';
 	_elementType = 'School';
-
-	public display : function () {
-		return <div>Create School</div>;
-	}
 
 }

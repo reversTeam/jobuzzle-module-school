@@ -7,13 +7,14 @@
 *       ## #     # #     # #     #    #       #    # #     #  *
 *       ## #     # #     # #     #   #       #     # ######   * @Last Modified by:   revers
 *  ####### #     # #     # #     #  #       #      # #        *
-*  ######   #####   ######  #####  ####### ####### # #######  * @Last Modified time: 2015-08-08 14:32:21
+*  ######   #####   ######  #####  ####### ####### # #######  * @Last Modified time: 2015-09-29 10:42:15
 **************************************************************/
 
 class SchoolDataUpdateTemplate extends InstituteDataUpdateTemplate {
 
-	_viewClassName = 'SchoolDataTemplateUpdateView';
-	_type = 'School';
-	_route = 'school';
+	public _viewClassName = 'SchoolDataTemplateUpdateView';
+	public _serviceName = 'school_data_main_service';
+	public _type = 'School';
+	public _route = 'school';
 
 }
