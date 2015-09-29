@@ -3,22 +3,18 @@
 *     ####         #                               #          *
 *       ##  #####  ######  #     # ####### ####### #  #####   * @Author: revers
 *       ## #     # #     # #     #      #       #  # #     #  *
-*       ## #     # #     # #     #     #       #   # #     #  * @Date:   2015-08-08 11:12:49
+*       ## #     # #     # #     #     #       #   # #     #  * @Date:   2015-09-29 10:35:28
 *       ## #     # #     # #     #    #       #    # #     #  *
 *       ## #     # #     # #     #   #       #     # ######   * @Last Modified by:   revers
 *  ####### #     # #     # #     #  #       #      # #        *
-*  ######   #####   ######  #####  ####### ####### # #######  * @Last Modified time: 2015-09-29 10:42:43
+*  ######   #####   ######  #####  ####### ####### # #######  * @Last Modified time: 2015-09-29 10:36:00
 **************************************************************/
 
-class SchoolDataMainService extends InstituteDataMainService {
+class SchoolDataFieldsetForm extends InstituteDataFieldsetForm {
 
-	public _type = 'school';
-	public _entityType = 'School';
-	public _title = 'Schools';
-	public _fieldsetName = 'school_data_fieldset_form';
-
-	getTitleParamsView : function (entity) {
-		return _super(entity);
-	}
+	public _formName = 'School';
+	public _createFormName = 'school_data_create_form';
+	public _searchFormName = 'school_data_search_form';
+	public _editFormName = 'school_data_edit_form';
 
 }

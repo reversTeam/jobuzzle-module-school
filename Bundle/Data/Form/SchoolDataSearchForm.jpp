@@ -3,22 +3,17 @@
 *     ####         #                               #          *
 *       ##  #####  ######  #     # ####### ####### #  #####   * @Author: revers
 *       ## #     # #     # #     #      #       #  # #     #  *
-*       ## #     # #     # #     #     #       #   # #     #  * @Date:   2015-08-08 11:12:49
+*       ## #     # #     # #     #     #       #   # #     #  * @Date:   2015-09-29 10:36:15
 *       ## #     # #     # #     #    #       #    # #     #  *
 *       ## #     # #     # #     #   #       #     # ######   * @Last Modified by:   revers
 *  ####### #     # #     # #     #  #       #      # #        *
-*  ######   #####   ######  #####  ####### ####### # #######  * @Last Modified time: 2015-09-29 10:42:43
+*  ######   #####   ######  #####  ####### ####### # #######  * @Last Modified time: 2015-09-29 10:36:28
 **************************************************************/
 
-class SchoolDataMainService extends InstituteDataMainService {
 
-	public _type = 'school';
-	public _entityType = 'School';
-	public _title = 'Schools';
-	public _fieldsetName = 'school_data_fieldset_form';
+class SchoolDataSearchForm extends InstituteDataSearchForm {
 
-	getTitleParamsView : function (entity) {
-		return _super(entity);
-	}
+	public _title = 'form.title.school.search';
+	public _url = '/school';
 
 }
