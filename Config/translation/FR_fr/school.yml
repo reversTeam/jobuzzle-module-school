@@ -7,11 +7,17 @@
 #       ## #     # #     # #     #    #       #    # #     #  #
 #       ## #     # #     # #     #   #       #     # ######   # @Last Modified by:   revers
 #  ####### #     # #     # #     #  #       #      # #        #
-#  ######   #####   ######  #####  ####### ####### # #######  # @Last Modified time: 2015-11-08 01:52:44
+#  ######   #####   ######  #####  ####### ####### # #######  # @Last Modified time: 2015-11-09 14:18:03
 ###############################################################
 
-Schools: Ecoles
-view: '{{url}}'
+page:
+	title:
+		Schools: Ecoles
+		view: '{{url}}'
 
 timeline:
 	school: École
+
+view:
+	actions:
+		edit: Editer l'école
