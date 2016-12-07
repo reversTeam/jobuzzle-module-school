@@ -7,11 +7,16 @@
 *       ## #     # #     # #     #    #       #    # #     #  *
 *       ## #     # #     # #     #   #       #     # ######   * @Last Modified by:   revers
 *  ####### #     # #     # #     #  #       #      # #        *
-*  ######   #####   ######  #####  ####### ####### # #######  * @Last Modified time: 2015-11-08 01:52:28
+*  ######   #####   ######  #####  ####### ####### # #######  * @Last Modified time: 2015-11-21 13:17:43
 **************************************************************/
 
 class SchoolDataTemplateTimelineView extends InstituteDataTemplateTimelineView {
 
+	public getClassElement : function () {
+		var classElement = _super();
+		classElement.push('school');
+		return classElement;
+	}
 
 	public displayFooter : function () {
 		var t = serviceLocator.get('Translator');
